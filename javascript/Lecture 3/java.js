@@ -7,10 +7,10 @@ var itam1="toy"
 console.log(itam1);
 
 {
-var  itam2="rolex"
+    var  itam1="rolex"
 }
-console.log(itam2);
 
+console.log(itam1);
 var a,b,c;
 
 a=10;
@@ -25,15 +25,15 @@ let x=10
 
 console.log(x);
 
- x=50
+  x=50
 
-console.log(x);
-
-{
-let y=7
-console.log(y);
-}
-
+  
+  {
+      let y=7
+      console.log(y);
+    }
+    console.log(x);
+    
 // console.log(x);
 // console.log(y);
 
@@ -74,9 +74,9 @@ const item5 = "javascript"
     const item5 = "javascript!"
     console.log(item5);
 }
+console.log(item5);
 
 
-    console.log(item5);
 
 
 
