@@ -54,8 +54,8 @@
 //   console.log(str2.length);
 //   console.log(str3.length);
 
-let name = "string"
-let str1='this is ${name} in javascript'
+let name = 'string'
+let str1=`this is ${name} in javascript`
 console.log(str1);
 
 
