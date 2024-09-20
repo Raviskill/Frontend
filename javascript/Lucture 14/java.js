@@ -105,5 +105,59 @@
     let match = Math.pow( 3 , 5 )
     console.log(match);
 }
+// Math.round()
 
-4
+{
+    let math = Math.round(Math.random()*10000)
+    console.log(math);
+}
+// Math.sin()
+
+{
+    let math = Math.round(12.45)
+    let math1 = Math.round(12.55)
+    console.log(math);
+    console.log(math1);
+}
+{
+    let math = Math.sin(30*3.14/180)
+    console.log(math);
+}
+// Math.trunc()
+{
+    let math = Math.trunc(10.10)
+    console.log(math);
+}
+// Math.sqrt()
+{
+    let math = Math.sqrt(64)
+    let math1 = Math.sqrt(121)
+    console.log(math);
+    console.log(math1);
+}
+// Math.sign()
+{
+    let math = Math.sign(56)
+    let math1 = Math.sign(-56)
+    let math2 = Math.sign(0)
+    console.log(math);
+    console.log(math1);
+    console.log(math2);
+}
+
+// Math.cos()
+{
+    let math = Math.cos(60*3.14/180)
+    console.log(math);
+}
+// Math.log()
+{
+    let math = Math.log(10)
+    let math1 = Math.log2(10)
+    let math2 = Math.log10(10)
+    console.log(math);
+    console.log(math1);
+    console.log(math2);
+    
+} 
+
