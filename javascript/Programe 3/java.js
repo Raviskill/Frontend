@@ -69,8 +69,106 @@
 // 9) Javascript Program to Generate a Random Number
 
 {
+
+    let Randome = Math.random()*1000
+
+    console.log(Randome);
+    
     
 }
+
+// 10)Javascript Program to Check if a number is Positive, Negative, or Zero
+
+let number = -10
+
+if(number<0)
+{
+    console.log("Negative");
+    
+}
+else if(number>0)
+{
+    console.log("Positive");
+    
+}
+else
+{
+    console.log("Zero");
+    
+}
+
+// 11) Javascript Program to Check if a Number is Odd or Even
+
+
+{
+    let num = 11;
+
+    if(num%2==0)
+    {
+        console.log("odd");
+        
+    }
+    else
+    {
+        console.log("Even");
+        
+    }
+}
+
+
+// 12)JavaScript Program to Find the Largest Among Three Numbers
+
+a = 1000
+b = 5000
+c = 3000
+{
+    if(a>b && a>c)
+    {
+        console.log("a is the largest number");
+        
+    }
+   else if(b>a && b>c)
+        {
+            console.log("b is the largest number");
+            
+        }
+        else
+        {
+            console.log("c is the largest number");
+            
+        }
+}
+
+// 13)JavaScript Program to Check Prime Number
+
+
+{
+    let A = 97  
+
+    if(A%2==0 || A%3==0 || A%4==0 || A%5==0 || A%6==0 || A%7==0 || A%8==0 || A%9==0 || A%10==0)
+    {
+        console.log("not");
+        
+    }
+    else
+    {
+        console.log("Prime Number");
+        
+    }
+}
+
+// 14)JavaScript Program to Print All Prime Numbers in an Interval
+{
+  
+    
+
+
+
+}
+
+
+
+
 
 
 
