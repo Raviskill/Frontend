@@ -124,7 +124,7 @@ console.log(NewObjecte3);
     
 
         let object1 = {
-            name: "John",
+            name: "raj",
             age: 30,
             city: "New York",
         }
@@ -136,5 +136,17 @@ console.log(NewObjecte3);
         object1.name = "Peter";
         console.log(object1);
     }
+
+    // Object.getOwnPropertyDescriptor()
+{
+    const object1 ={
+        property1
+    }
+
+    const discripesan1 = Object.getOwnPropertyDescriptor (object1,property1)
+    
+
+}
+
 
 

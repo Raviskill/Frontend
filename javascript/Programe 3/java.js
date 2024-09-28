@@ -160,11 +160,125 @@ c = 3000
 // 14)JavaScript Program to Print All Prime Numbers in an Interval
 {
   
+    let A ; 
     
+    for(let A=1;A<=100;A++)
+    {
+        if(A%2==0 || A%3==0 || A%4==0 || A%5==0 || A%6==0 || A%7==0 || A%8==0 || A%9==0 || A%10==0)
+            {
+                console.log();      
+            }
+            else
+            {
+                console.log(A);
+                
+            }
+
+
+    }
 
 
 
 }
+
+
+// 15)JavaScript Program to Find the Factorial of a Number
+
+{
+
+    let num = 5;
+    let fact=1;
+
+    for( let i=1;i<=num;i++)
+    {
+         fact *=i
+    }
+    
+    console.log(fact);
+}
+
+
+// 16)JavaScript Program to Display the Multiplication Table
+{
+
+let num = 5
+let Table
+{
+    for(let i=1;i<=10;i++)
+    {
+        Table=i*num
+        console.log(Table);
+        
+    }
+}
+
+}
+
+// 17)JavaScript Program to Print the Fibonacci Sequence
+
+
+    {
+        let  number =10;
+        let n1 = 0;
+        let n2 = 1;
+        let next;
+        
+        for( let i=0;i<=number;i++)
+        {
+            console.log(n1);
+            next = n1 + n2;
+            n1 = n2;
+            n2 = next;   
+        }
+}
+
+
+// 20)JavaScript Program to Make a Simple Calculator
+
+{
+
+    let opt = `-`;
+    let num1 = 10;
+    let num2 = 20;
+
+    let regulte;
+
+    if(opt==`+`)
+    {
+        regulte =num1+num2 
+    }
+   else if(opt==`-`)
+        {
+            regulte =num1-num2 
+        }
+       else if(opt==`*`)
+            {
+                regulte =num1*num2 
+            }
+            else{
+                regulte = num1/num2
+            }
+console.log(regulte);
+
+}
+
+
+// 21)JavaScript Program to Find the Sum of Natural Numbers
+
+{
+    let num = 10
+
+    let sum = 0;
+
+    for(let i=1;i<=num;i++)
+    {
+        sum+=i;
+
+    }
+    console.log(sum);
+    
+}
+
 
 
 
