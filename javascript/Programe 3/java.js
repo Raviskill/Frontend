@@ -273,11 +273,203 @@ console.log(regulte);
     for(let i=1;i<=num;i++)
     {
         sum+=i;
-
     }
     console.log(sum);
     
 }
+// 22)JavaScript Program to Check if the Numbers Have Same Last Digit
+{
+
+
+const a = 30
+const b = 20
+const c = 30
+
+const result1 = a % 10;
+const result2 = b % 10;
+const result3 = c % 10;
+
+if(result1 == result2 && result1 == result3) {
+    console.log(` have the same last digit.`);
+}
+else {
+    console.log(` have different last digit.`);
+}
+}
+
+
+// 26)JavaScript Program to Find Sum of Natural Numbers Using Recursion
+
+
+
+{
+
+function Sum(n) { 
+	if (n !== 0) 
+		return n +Sum(n - 1); 
+	else
+		return n; 
+} 
+
+
+const n = 5; 
+console.log(Sum(n));
+
+}
+
+
+// 27)JavaScript Program to Guess a Random Number
+{
+    let random = Math.random()*50
+    console.log(random);
+    
+}
+
+// 28)JavaScript Program to Shuffle Deck of Cards
+
+
+
+// 29)JavaScript Program to Display Fibonacci Sequence Using Recursion
+{
+
+let num;
+    function fibonacci(num) {
+        if(num < 2) {
+            return num;
+        }
+        else {
+            return fibonacci(num-1) + fibonacci(num - 2);
+        }
+    }
+    
+    const nTerms = 10 ;
+    
+         for(let i = 0; i < nTerms; i++) {
+            console.log(fibonacci(i));
+         }
+
+}
+
+
+// 30)JavaScript Program to Find Factorial of Number Using Recursion
+
+
+{
+    function factorial(x) {
+
+        if (x == 0) {
+            return 1;
+        }
+    
+        else {
+            return x * factorial(x - 1);
+        }
+    }
+    
+    const num = 5 ;
+    
+    
+        const result = factorial(num);
+        console.log(result)
+    
+}
+
+
+// 31)JavaScript Program to Convert Decimal to Binary
+
+
+
+{
+    const number = 100
+    const regulte = number.toString(2);
+
+    console.log(regulte);
+    
+}
+
+
+// 32)JavaScript Program to Find ASCII Value of Character
+{
+    const String = 'k';
+    const regulte = String.charCodeAt(0);
+
+    console.log(regulte);
+    
+}
+
+// 33)JavaScript Program to Check Whether a String is Palindrome or Not
+
+
+
+{
+    const String ='ravi chavda';
+
+    const words = String.split(" ");
+
+    words.sort();
+
+    for(const element of words)
+    {
+        console.log(element);
+        
+    }
+
+}
+
+// 34)JavaScript Program to Sort Words in Alphabetical Order
+
+
+
+// 35)JavaScript Program to Replace Characters of a String
+{
+    let String ='mr red is red house  and red car';
+
+    let text =String.replace('red','green');
+
+    console.log(text);
+    
+}
+
+
+// 36)JavaScript Program to Reverse a String
+{
+
+    let string ='ravi'
+    let string1=string.split("")
+    let String2=string1.reverse()
+    let String3=String2.join(" ")
+  
+    console.log(String3);
+}
+
+
+// 37)JavaScript Program to Create Objects in Different Ways
+{
+    const person ={
+        name:"meet",
+        age:19
+  
+      }
+      console.log(typeof person);
+  
+      const person1 = new Object({
+        name:"meet",
+        age:19
+  
+      })
+      console.log(typeof person1);
+}
+
+// 38)JavaScript Program to Check the Number of Occurrences of a Character in
+// the String
+
+{
+    
+}
+
+
+
+
 
 
 
