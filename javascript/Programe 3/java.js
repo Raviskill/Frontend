@@ -463,9 +463,133 @@ let num;
 // 38)JavaScript Program to Check the Number of Occurrences of a Character in
 // the String
 
+
+// 39)JavaScript Program to Convert the First Letter of a String into UpperCase
+
 {
+function capitalizeFirstLetter(str) {
+
+    
+    const capitalized = str.charAt(0).toUpperCase() + str.slice(1);
+
+    return capitalized;
+}
+
+
+const string = 'ravi';
+
+const result = capitalizeFirstLetter(string);
+
+console.log(result);
+    
+}   
+
+
+// 40)JavaScript Program to Count the Number of Vowels in a String
+
+// {
+//     function countVowel(str) { 
+
+        
+//         const count = str.match(/[aeiou]/gi).length;0   
+    
+        
+//         return count;
+//     }
+    
+
+//     const string = 'ravi';
+    
+    
+//     console.log(result);
+    
+// }
+
+
+// 41)JavaScript Program to Remove a Property from an Object
+
+{
+    const student = { 
+        name: 'John',
+        age: 20,
+    
+        score: {
+            maths: 90,
+            science: 80
+        }
+    };
+    
+    
+    
+    delete student['score'];
+    
+    console.log(student);
+
+}
+
+// 42)JavaScript Program to Check Whether a String Starts and Ends With Certain
+// Characters
+
+{
+    function checkString(str) {
+
+        if(str.startsWith('S') && str.endsWith('G')) {
+            console.log('The string starts with S and ends with G');
+        }
+        
+    
+        else {
+            console.log('The string does not start with S and does not end with G');
+        }
+    }
+    
+    let string = 'song';
+    checkString(string);
+}
+
+
+// 43)JavaScript Program to Check if a Key Exists in an Object
+
+{
+    const person = {
+
+        name: 'John'
+    }
+    const hasKey = 'name' in person;
+    
+    if(hasKey) {
+        console.log('The key exists.');
+    }
+    else {
+        console.log('The key does not exist.');
+    }
+}
+
+
+// 44)JavaScript Program to Clone a JS Object
+{
+    let parsone = {
+        name : 'ravi',
+        age : 20
+    }
+
+    let clonepersone =Object.assign({},parsone)
+
+    console.log(clonepersone);
+
+    clonepersone.name = 'Peter';
+
+console.log(clonepersone.name);
+console.log(parsone.name);
+
     
 }
+
+// 45)JavaScript Program to Loop Through an Object
+{
+                             
+}
+
 
 
 
