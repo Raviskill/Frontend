@@ -13,10 +13,11 @@
     let c = a+b;
 
     console.log(c);
-    
-    
 }
+
 // 3) JavaScript Program to Find the Square Root
+
+
 {
     let a = Math.sqrt(50)
     console.log(a);
@@ -32,6 +33,7 @@
     console.log(c);
     
 }
+
 // 5) JavaScript Program to Swap Two Variables
 {
     let x =10 ;
@@ -45,6 +47,7 @@
     console.log(x);
     
 }
+
 // 6) JavaScript Program to Solve Quadratic Equation
 {
     
@@ -132,7 +135,8 @@ c = 3000
             console.log("b is the largest number");
             
         }
-        else
+        el
+        se
         {
             console.log("c is the largest number");
             
@@ -586,9 +590,262 @@ console.log(parsone.name);
 }
 
 // 45)JavaScript Program to Loop Through an Object
+
+
+// 46)JavaScript Program to Merge Property of Two Objects
+
 {
+
+const person = {
+    name: 'Jack',
+    age:26
+}
+
+const student = {
+    gender: 'male'
+}
+
+const newObj = Object.assign(person, student);
+
+console.log(newObj);
                              
 }
+
+
+// 47)JavaScript Program to Count the Number of Keys/Properties in an Object
+{
+    const student = { 
+        name: 'John',
+        age: 20,
+    };
+    
+    const result = Object.keys(student).length;
+    
+    console.log(result);
+}
+
+// 48)JavaScript Program to Add Key/Value Pair to an Object
+{
+    let parsone ={
+
+        name  : 'ravi'
+    
+    }
+    parsone.sarname = "chavda"
+
+    console.log(parsone);
+    
+
+}
+
+
+// 49)JavaScript Program to Replace All Occurrences of a String
+
+{
+    const string = 'Mr red has a red house and a red car';
+
+    const result = string.split('red').join('blue');
+    
+    console.log(result);
+    
+    
+}
+
+
+// 50)JavaScript Program to Create Multiline Strings
+
+
+{
+    const message = `This is a long message
+that spans across multiple lines`
+
+console.log(message);
+}
+
+// 51)JavaScript Program to Format Numbers as Currency Strings
+{
+    const number = 1234.5678;
+
+const result = '$ ' + number.toFixed(2);
+
+console.log(result);
+}
+
+// 51. JavaScript Program to Format Numbers as Currency Strings
+
+{
+    const number = 5648.1258;
+
+    const result = '$' + number.toFixed(2);
+    console.log(result)
+}
+
+// 52. JavaScript Program to Generate Random String
+
+{
+    const randomString = Math.random().toString(36).substring(2, 7);
+    console.log(randomString)
+}
+
+// 53. JavaScript Program to Check if a String Starts With Another String
+
+{
+    const string = 'This is javascript';
+    const start = "This"
+
+    if (string.startsWith(start)) {
+        console.log("true")
+    }
+    else {
+        console.log("false")
+    }
+}
+
+// 54. JavaScript Program to Trim a String
+
+{
+    const string = '                  This is apple                ';
+    console.log(string)
+    const trim = string.trim();
+    console.log(trim)
+}
+
+// 55. JavaScript Program to Convert Objects to Strings
+
+{
+    const person = {
+        name: 'Jack',
+        age: 27
+    }
+
+    const str = JSON.stringify(person);
+    console.log(str)
+}
+
+// 56. JavaScript Program to Check Whether a String Contains a Substring
+
+{
+    let string = "this is apple";
+    let addStr = "banana";
+
+    if (string.includes(addStr)) {
+        console.log("The string contain")
+    }
+    else {
+        console.log("the string does not contain")
+    }
+}
+
+// 57. JavaScript Program to Compare Two Strings
+
+{
+    let string1 = "kiwi";
+    let string2 = "apple";
+
+    if (string1 === string2) {
+        console.log("string are equal")
+    }
+    else {
+        console.log("String are not equal")
+    }
+}
+
+// 58. JavaScript Program to Encode a String to Base64
+// btoa() method is used to convert the string to Base64.
+// atob() method is used to convert the Base64 to a string
+{
+    const str = "This is string method ";
+
+    const result = window.btoa(str);
+    console.log(result)
+
+    const result1 = window.atob(result);
+    console.log(result1)
+}
+
+// 59. JavaScript Program to Replace all Instances of a Character in a String
+
+{
+    let string = "this is apple and that is apple";
+
+    console.log(string.replaceAll("apple", "kiwi"))
+}
+
+// 60. JavaScript Program to Replace All Line Breaks with
+
+{
+    let str = `this is 
+    line break 
+    string `
+    let result = str.split("\n").join("<br/>");
+    console.log(result)
+}
+
+// 61. JavaScript Program to Display Date and Time
+
+{
+    let date = new Date();
+    let getdate = date.getDate();
+    console.log(getdate)
+    let gettime = date.getTime();
+    console.log(gettime)
+}
+
+
+// 62. JavaScript Program to Check Leap Year
+
+{
+    let year = 2000;
+
+    if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
+        console.log("is leap year")
+    } else {
+        console.log("is not leap year")
+    }
+}
+
+// 63. JavaScript Program to Format the Date
+
+{
+    let currentDate = new Date();
+    let getyear = currentDate.getFullYear();
+    let getdate = currentDate.getDate();
+    let getmonth = currentDate.getMonth() + 1;
+    console.log(currentDate)
+
+    console.log(${getdate}-${getmonth}-${getyear})
+    console.log(${getdate}/${getmonth}/${getyear})
+}
+
+// 64. Javascript Program to Display Current Date
+
+{
+    let currentDate = new Date();
+    let date = currentDate.toDateString();
+    console.log(date)
+}
+
+// 65. JavaScript Program to Compare The Value of Two Dates
+
+{
+    let date1 = new Date();
+    let date2 = new Date();
+
+    let compare1 = date1 < date2
+    let compare2 = date1 <= date2
+    let compare3 = date1 > date2
+    let compare4 = date1 >= date2
+
+    console.log(compare1)
+    console.log(compare2)
+    console.log(compare3)
+    console.log(compare4)
+}
+
+
+
+
+
 
 
 

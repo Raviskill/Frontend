@@ -1,21 +1,4 @@
-// const jsonData = {
-//     key1:'ravi',
-//     key2:'18',
-//     key3:'bca'
-//   }
-  
-  // console.log(jsonData);
-  
-  
-  // let data  = JSON.stringify(jsonData);
-  
-  // console.log(data);
-  
-  // let object = JSON.parse(data)
-  
-  // console.log(object);
-  
-  
+
   const ProductData = async() => {
     let response = await fetch('http://localhost:3000/product')
     let res = await response.json()
