@@ -1,8 +1,8 @@
 // 1) JavaScript Program To Print Hello World
 {
-    let a ="Heelo wolde"
+    let a = "Heelo wolde"
     console.log(a);
-    
+
 }
 // 2) JavaScript Program to Add Two Numbers
 
@@ -10,7 +10,7 @@
 {
     let a = 10;
     let b = 30;
-    let c = a+b;
+    let c = a + b;
 
     console.log(c);
 }
@@ -21,83 +21,80 @@
 {
     let a = Math.sqrt(50)
     console.log(a);
-    
+
 }
 
 // 4) JavaScript Program to Calculate the Area of a Triangle
 {
     let h = 20;
     let b = 10;
-    let c = h*b/2;
+    let c = h * b / 2;
 
     console.log(c);
-    
+
 }
 
 // 5) JavaScript Program to Swap Two Variables
 {
-    let x =10 ;
+    let x = 10;
     let y = 20;
     let z = 30;
 
-    x=y;
-    y=z;
-    z=x;
+    x = y;
+    y = z;
+    z = x;
 
     console.log(x);
-    
+
 }
 
 // 6) JavaScript Program to Solve Quadratic Equation
 {
-    
+
 }
 // 7) JavaScript Program to Convert Kilometres to Miles
 {
     let Kilometres = 5
-    let Miles = Kilometres*0.62
+    let Miles = Kilometres * 0.62
 
     console.log(Miles);
 }
 
-// 8) Javascript Program to Convert Celsius to Fahrenheit
+// // 8) Javascript Program to Convert Celsius to Fahrenheit
 
 {
     let Celsius = 5
-    let Fahrenheit = Celsius*1.8+32
+    let Fahrenheit = Celsius * 1.8 + 32
 
     console.log(Fahrenheit);
-    
+
 }
 // 9) Javascript Program to Generate a Random Number
 
 {
 
-    let Randome = Math.random()*1000
+    let Randome = Math.random() * 1000
 
     console.log(Randome);
-    
-    
+
+
 }
 
 // 10)Javascript Program to Check if a number is Positive, Negative, or Zero
 
 let number = -10
 
-if(number<0)
-{
+if (number < 0) {
     console.log("Negative");
-    
+
 }
-else if(number>0)
-{
+else if (number > 0) {
     console.log("Positive");
-    
+
 }
-else
-{
+else {
     console.log("Zero");
-    
+
 }
 
 // 11) Javascript Program to Check if a Number is Odd or Even
@@ -106,15 +103,13 @@ else
 {
     let num = 11;
 
-    if(num%2==0)
-    {
+    if (num % 2 == 0) {
         console.log("odd");
-        
+
     }
-    else
-    {
+    else {
         console.log("Even");
-        
+
     }
 }
 
@@ -125,58 +120,49 @@ a = 1000
 b = 5000
 c = 3000
 {
-    if(a>b && a>c)
-    {
+    if (a > b && a > c) {
         console.log("a is the largest number");
-        
+
     }
-   else if(b>a && b>c)
-        {
-            console.log("b is the largest number");
-            
-        }
-        el
-        se
-        {
-            console.log("c is the largest number");
-            
-        }
+    else if (b > a && b > c) {
+        console.log("b is the largest number");
+
+    }
+    else {
+        console.log("c is the largest number");
+
+    }
 }
 
 // 13)JavaScript Program to Check Prime Number
 
 
 {
-    let A = 97  
+    let A = 97
 
-    if(A%2==0 || A%3==0 || A%4==0 || A%5==0 || A%6==0 || A%7==0 || A%8==0 || A%9==0 || A%10==0)
-    {
+    if (A % 2 == 0 || A % 3 == 0 || A % 4 == 0 || A % 5 == 0 || A % 6 == 0 || A % 7 == 0 || A % 8 == 0 || A % 9 == 0 || A % 10 == 0) {
         console.log("not");
-        
+
     }
-    else
-    {
+    else {
         console.log("Prime Number");
-        
+
     }
 }
 
 // 14)JavaScript Program to Print All Prime Numbers in an Interval
 {
-  
-    let A ; 
-    
-    for(let A=1;A<=100;A++)
-    {
-        if(A%2==0 || A%3==0 || A%4==0 || A%5==0 || A%6==0 || A%7==0 || A%8==0 || A%9==0 || A%10==0)
-            {
-                console.log();      
-            }
-            else
-            {
-                console.log(A);
-                
-            }
+
+    let A;
+
+    for (let A = 1; A <= 100; A++) {
+        if (A % 2 == 0 || A % 3 == 0 || A % 4 == 0 || A % 5 == 0 || A % 6 == 0 || A % 7 == 0 || A % 8 == 0 || A % 9 == 0 || A % 10 == 0) {
+            console.log();
+        }
+        else {
+            console.log(A);
+
+        }
 
 
     }
@@ -191,13 +177,12 @@ c = 3000
 {
 
     let num = 5;
-    let fact=1;
+    let fact = 1;
 
-    for( let i=1;i<=num;i++)
-    {
-         fact *=i
+    for (let i = 1; i <= num; i++) {
+        fact *= i
     }
-    
+
     console.log(fact);
 }
 
@@ -205,35 +190,33 @@ c = 3000
 // 16)JavaScript Program to Display the Multiplication Table
 {
 
-let num = 5
-let Table
-{
-    for(let i=1;i<=10;i++)
+    let num = 5
+    let Table
     {
-        Table=i*num
-        console.log(Table);
-        
+        for (let i = 1; i <= 10; i++) {
+            Table = i * num
+            console.log(Table);
+
+        }
     }
-}
 
 }
 
 // 17)JavaScript Program to Print the Fibonacci Sequence
 
 
-    {
-        let  number =10;
-        let n1 = 0;
-        let n2 = 1;
-        let next;
-        
-        for( let i=0;i<=number;i++)
-        {
-            console.log(n1);
-            next = n1 + n2;
-            n1 = n2;
-            n2 = next;   
-        }
+{
+    let number = 10;
+    let n1 = 0;
+    let n2 = 1;
+    let next;
+
+    for (let i = 0; i <= number; i++) {
+        console.log(n1);
+        next = n1 + n2;
+        n1 = n2;
+        n2 = next;
+    }
 }
 
 
@@ -247,22 +230,19 @@ let Table
 
     let regulte;
 
-    if(opt==`+`)
-    {
-        regulte =num1+num2 
+    if (opt == `+`) {
+        regulte = num1 + num2
     }
-   else if(opt==`-`)
-        {
-            regulte =num1-num2 
-        }
-       else if(opt==`*`)
-            {
-                regulte =num1*num2 
-            }
-            else{
-                regulte = num1/num2
-            }
-console.log(regulte);
+    else if (opt == `-`) {
+        regulte = num1 - num2
+    }
+    else if (opt == `*`) {
+        regulte = num1 * num2
+    }
+    else {
+        regulte = num1 / num2
+    }
+    console.log(regulte);
 
 }
 
@@ -274,31 +254,30 @@ console.log(regulte);
 
     let sum = 0;
 
-    for(let i=1;i<=num;i++)
-    {
-        sum+=i;
+    for (let i = 1; i <= num; i++) {
+        sum += i;
     }
     console.log(sum);
-    
+
 }
 // 22)JavaScript Program to Check if the Numbers Have Same Last Digit
 {
 
 
-const a = 30
-const b = 20
-const c = 30
+    const a = 30
+    const b = 20
+    const c = 30
 
-const result1 = a % 10;
-const result2 = b % 10;
-const result3 = c % 10;
+    const result1 = a % 10;
+    const result2 = b % 10;
+    const result3 = c % 10;
 
-if(result1 == result2 && result1 == result3) {
-    console.log(` have the same last digit.`);
-}
-else {
-    console.log(` have different last digit.`);
-}
+    if (result1 == result2 && result1 == result3) {
+        console.log(` have the same last digit.`);
+    }
+    else {
+        console.log(` have different last digit.`);
+    }
 }
 
 
@@ -308,25 +287,25 @@ else {
 
 {
 
-function Sum(n) { 
-	if (n !== 0) 
-		return n +Sum(n - 1); 
-	else
-		return n; 
-} 
+    function Sum(n) {
+        if (n !== 0)
+            return n + Sum(n - 1);
+        else
+            return n;
+    }
 
 
-const n = 5; 
-console.log(Sum(n));
+    const n = 5;
+    console.log(Sum(n));
 
 }
 
 
 // 27)JavaScript Program to Guess a Random Number
 {
-    let random = Math.random()*50
+    let random = Math.random() * 50
     console.log(random);
-    
+
 }
 
 // 28)JavaScript Program to Shuffle Deck of Cards
@@ -336,21 +315,21 @@ console.log(Sum(n));
 // 29)JavaScript Program to Display Fibonacci Sequence Using Recursion
 {
 
-let num;
+    let num;
     function fibonacci(num) {
-        if(num < 2) {
+        if (num < 2) {
             return num;
         }
         else {
-            return fibonacci(num-1) + fibonacci(num - 2);
+            return fibonacci(num - 1) + fibonacci(num - 2);
         }
     }
-    
-    const nTerms = 10 ;
-    
-         for(let i = 0; i < nTerms; i++) {
-            console.log(fibonacci(i));
-         }
+
+    const nTerms = 10;
+
+    for (let i = 0; i < nTerms; i++) {
+        console.log(fibonacci(i));
+    }
 
 }
 
@@ -364,18 +343,18 @@ let num;
         if (x == 0) {
             return 1;
         }
-    
+
         else {
             return x * factorial(x - 1);
         }
     }
-    
-    const num = 5 ;
-    
-    
-        const result = factorial(num);
-        console.log(result)
-    
+
+    const num = 5;
+
+
+    const result = factorial(num);
+    console.log(result)
+
 }
 
 
@@ -388,7 +367,7 @@ let num;
     const regulte = number.toString(2);
 
     console.log(regulte);
-    
+
 }
 
 
@@ -398,7 +377,7 @@ let num;
     const regulte = String.charCodeAt(0);
 
     console.log(regulte);
-    
+
 }
 
 // 33)JavaScript Program to Check Whether a String is Palindrome or Not
@@ -406,16 +385,15 @@ let num;
 
 
 {
-    const String ='ravi chavda';
+    const String = 'ravi chavda';
 
     const words = String.split(" ");
 
     words.sort();
 
-    for(const element of words)
-    {
+    for (const element of words) {
         console.log(element);
-        
+
     }
 
 }
@@ -426,42 +404,42 @@ let num;
 
 // 35)JavaScript Program to Replace Characters of a String
 {
-    let String ='mr red is red house  and red car';
+    let String = 'mr red is red house  and red car';
 
-    let text =String.replace('red','green');
+    let text = String.replace('red', 'green');
 
     console.log(text);
-    
+
 }
 
 
 // 36)JavaScript Program to Reverse a String
 {
 
-    let string ='ravi'
-    let string1=string.split("")
-    let String2=string1.reverse()
-    let String3=String2.join(" ")
-  
+    let string = 'ravi'
+    let string1 = string.split("")
+    let String2 = string1.reverse()
+    let String3 = String2.join(" ")
+
     console.log(String3);
 }
 
 
 // 37)JavaScript Program to Create Objects in Different Ways
 {
-    const person ={
-        name:"meet",
-        age:19
-  
-      }
-      console.log(typeof person);
-  
-      const person1 = new Object({
-        name:"meet",
-        age:19
-  
-      })
-      console.log(typeof person1);
+    const person = {
+        name: "meet",
+        age: 19
+
+    }
+    console.log(typeof person);
+
+    const person1 = new Object({
+        name: "meet",
+        age: 19
+
+    })
+    console.log(typeof person1);
 }
 
 // 38)JavaScript Program to Check the Number of Occurrences of a Character in
@@ -471,22 +449,22 @@ let num;
 // 39)JavaScript Program to Convert the First Letter of a String into UpperCase
 
 {
-function capitalizeFirstLetter(str) {
+    function capitalizeFirstLetter(str) {
 
-    
-    const capitalized = str.charAt(0).toUpperCase() + str.slice(1);
 
-    return capitalized;
+        const capitalized = str.charAt(0).toUpperCase() + str.slice(1);
+
+        return capitalized;
+    }
+
+
+    const string = 'ravi';
+
+    const result = capitalizeFirstLetter(string);
+
+    console.log(result);
+
 }
-
-
-const string = 'ravi';
-
-const result = capitalizeFirstLetter(string);
-
-console.log(result);
-    
-}   
 
 
 // 40)JavaScript Program to Count the Number of Vowels in a String
@@ -494,39 +472,39 @@ console.log(result);
 // {
 //     function countVowel(str) { 
 
-        
+
 //         const count = str.match(/[aeiou]/gi).length;0   
-    
-        
+
+
 //         return count;
 //     }
-    
+
 
 //     const string = 'ravi';
-    
-    
+
+
 //     console.log(result);
-    
+
 // }
 
 
 // 41)JavaScript Program to Remove a Property from an Object
 
 {
-    const student = { 
+    const student = {
         name: 'John',
         age: 20,
-    
+
         score: {
             maths: 90,
             science: 80
         }
     };
-    
-    
-    
+
+
+
     delete student['score'];
-    
+
     console.log(student);
 
 }
@@ -537,16 +515,16 @@ console.log(result);
 {
     function checkString(str) {
 
-        if(str.startsWith('S') && str.endsWith('G')) {
+        if (str.startsWith('S') && str.endsWith('G')) {
             console.log('The string starts with S and ends with G');
         }
-        
-    
+
+
         else {
             console.log('The string does not start with S and does not end with G');
         }
     }
-    
+
     let string = 'song';
     checkString(string);
 }
@@ -560,8 +538,8 @@ console.log(result);
         name: 'John'
     }
     const hasKey = 'name' in person;
-    
-    if(hasKey) {
+
+    if (hasKey) {
         console.log('The key exists.');
     }
     else {
@@ -573,20 +551,20 @@ console.log(result);
 // 44)JavaScript Program to Clone a JS Object
 {
     let parsone = {
-        name : 'ravi',
-        age : 20
+        name: 'ravi',
+        age: 20
     }
 
-    let clonepersone =Object.assign({},parsone)
+    let clonepersone = Object.assign({}, parsone)
 
     console.log(clonepersone);
 
     clonepersone.name = 'Peter';
 
-console.log(clonepersone.name);
-console.log(parsone.name);
+    console.log(clonepersone.name);
+    console.log(parsone.name);
 
-    
+
 }
 
 // 45)JavaScript Program to Loop Through an Object
@@ -596,45 +574,45 @@ console.log(parsone.name);
 
 {
 
-const person = {
-    name: 'Jack',
-    age:26
-}
+    const person = {
+        name: 'Jack',
+        age: 26
+    }
 
-const student = {
-    gender: 'male'
-}
+    const student = {
+        gender: 'male'
+    }
 
-const newObj = Object.assign(person, student);
+    const newObj = Object.assign(person, student);
 
-console.log(newObj);
-                             
+    console.log(newObj);
+
 }
 
 
 // 47)JavaScript Program to Count the Number of Keys/Properties in an Object
 {
-    const student = { 
+    const student = {
         name: 'John',
         age: 20,
     };
-    
+
     const result = Object.keys(student).length;
-    
+
     console.log(result);
 }
 
 // 48)JavaScript Program to Add Key/Value Pair to an Object
 {
-    let parsone ={
+    let parsone = {
 
-        name  : 'ravi'
-    
+        name: 'ravi'
+
     }
     parsone.sarname = "chavda"
 
     console.log(parsone);
-    
+
 
 }
 
@@ -645,10 +623,10 @@ console.log(newObj);
     const string = 'Mr red has a red house and a red car';
 
     const result = string.split('red').join('blue');
-    
+
     console.log(result);
-    
-    
+
+
 }
 
 
@@ -659,16 +637,16 @@ console.log(newObj);
     const message = `This is a long message
 that spans across multiple lines`
 
-console.log(message);
+    console.log(message);
 }
 
 // 51)JavaScript Program to Format Numbers as Currency Strings
 {
     const number = 1234.5678;
 
-const result = '$ ' + number.toFixed(2);
+    const result = '$ ' + number.toFixed(2);
 
-console.log(result);
+    console.log(result);
 }
 
 // 51. JavaScript Program to Format Numbers as Currency Strings
@@ -813,8 +791,8 @@ console.log(result);
     let getmonth = currentDate.getMonth() + 1;
     console.log(currentDate)
 
-    console.log(${getdate}-${getmonth}-${getyear})
-    console.log(${getdate}/${getmonth}/${getyear})
+    console.log(`${getdate}-${getmonth}-${getyear}`)
+
 }
 
 // 64. Javascript Program to Display Current Date
@@ -842,24 +820,253 @@ console.log(result);
     console.log(compare4)
 }
 
+// 66)JavaScript Program to Create Countdown Timer
+{
+
+}
+
+// 67)JavaScript Program to Remove Specific Item From an Array
+{
+
+
+    function removeItemFromArray(array, n) {
+        const newArray = [];
+
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] !== n) {
+                newArray.push(array[i]);
+            }
+        }
+        return newArray;
+    }
+
+    const result = removeItemFromArray([1, 2, 3, 4, 5], 2);
+
+    console.log(result);
+}
+
+
+// 68)JavaScript Program to Check if An Array Contains a Specified Value
+{
+
+    let arr = ['my', 'name', 'is', 'ravi']
+
+    const hasValue = arr.includes('ravi');
+
+    if (hasValue) {
+        console.log("");
+
+    }
 
 
 
 
 
+}
+
+// 69)JavaScript Program to Insert Item in an Array
+{
+    // program to insert an item at a specific index into an array
+
+    function insertElement() {
+        let array = [1, 2, 3, 4, 5];
+
+
+        let index = 3;
+
+
+        let element = 8;
+
+        array.splice(index, 0, element);
+        console.log(array);
+    }
+
+    insertElement();
+}
 
 
 
 
+// 73)JavaScript Program to Add Element to Start of an Array
+{
+
+
+    function addElement(arr) {
+
+
+        arr.unshift(4);
+
+        console.log(arr);
+    }
+
+    const array = [1, 2, 3];
+
+
+    addElement(array);
+}
+
+
+// 74)JavaScript Program to Remove Duplicates From Array
+{
 
 
 
 
+    function getUnique(arr) {
+
+        let uniqueArr = [];
+
+
+        for (let i of arr) {
+            if (uniqueArr.indexOf(i) === -1) {
+                uniqueArr.push(i);
+            }
+        }
+        console.log(uniqueArr);
+    }
+
+    const array = [1, 2, 3, 2, 3];
+
+
+    getUnique(array);
+
+
+}
+
+// 75)JavaScript Program to Merge Two Arrays and Remove Duplicate Items
+{
+
+
+    function getUniqueAfterMerge(arr1, arr2) {
+
+
+        let arr = [...arr1, ...arr2];
+
+
+        let uniqueArr = [...new Set(arr)];
+
+        console.log(uniqueArr);
+    }
+
+    const array1 = [1, 2, 3];
+    const array2 = [2, 3, 5]
+
+    getUniqueAfterMerge(array1, array2);
+}
+
+
+
+// 76)JavaScript Program to Sort Array of Objects by Property Values
+{
+    function compareAge(a, b) {
+        return a.age - b.age;
+    }
+    let student = [{ name: 'ravi', age: 20 }, { name: 'meet', age: 18 }, { name: 'ram', age: 17 }]
+
+    console.log(student.sort(compareAge));
+
+}
+
+// 77)JavaScript Program to Create Two Dimensional Array
+{
+
+
+    function twoDimensionArray(a, b) {
+        let arr = [];
+
+
+        for (let i = 0; i < a; i++) {
+            for (let j = 0; j < b; j++) {
+                arr[i] = [];
+            }
+        }
+
+
+        for (let i = 0; i < a; i++) {
+            for (let j = 0; j < b; j++) {
+                arr[i][j] = j;
+            }
+        }
+        return arr;
+    }
+
+    const x = 2;
+    const y = 3;
+
+    const result = twoDimensionArray(x, y);
+    console.log(result);
+
+
+
+}
 
 
 
 
+// 78)JavaScript Program to Extract Given Property Values from Objects as Array
+
+
+{
+
+
+    function extractValue(arr, prop) {
+
+
+        let extractedValue = arr.map(item => item[prop]);
+
+        return extractedValue;
+
+    }
+
+    const objArray = [{ a: 1, b: 2 }, { a: 4, b: 5 }, { a: 8, b: 9 }];
+
+    const result = extractValue(objArray, 'a');
+    console.log(result);
+}
+
+// 79)JavaScript Program to Compare Elements of Two Arrays
+
+
+// 80)JavaScript Program to Get Random Item From an Array
+{
+
+
+    function getRandomItem(arr) {
+
+
+        const randomIndex = Math.floor(Math.random() * arr.length);
+
+        const item = arr[randomIndex];
+
+        return item;
+    }
+
+    const array = [1, 'hello', 5, 8];
+
+    const result = getRandomItem(array);
+    console.log(result);
+}
+
+
+// 81)JavaScript Program To Perform Intersection Between Two Arrays
+
+{
+
+    function performIntersection(arr1, arr2) {
+
+        const intersectionResult = arr1.filter(x => arr2.indexOf(x) !== -1);
+
+        return intersectionResult;
+
+    }
+
+    const array1 = [1, 2, 3, 5, 9];
+    const array2 = [1, 3, 5, 8];
+
+    const result = performIntersection(array1, array2);
+    console.log(result);
 
 
 
+}
 
